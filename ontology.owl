@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:07ad16c3-cd80-4168-9feb-4d304119a331#"
+     xml:base="urn:webprotege:ontology:07ad16c3-cd80-4168-9feb-4d304119a331"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:07ad16c3-cd80-4168-9feb-4d304119a331"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#description -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#description">
+        <rdfs:label>rdfs:description</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#title -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#title">
+        <rdfs:label>rdfs:title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3vJSUIfWAxtR8RycVNgv4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3vJSUIfWAxtR8RycVNgv4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Wilde</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canterbury Classics</dc:publisher>
+        <dc:title xml:lang="en">The Picture of Dorian Gray</dc:title>
+        <rdfs:label>Classicbooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Picture-Dorian-Gray-Oscar-Wilde/dp/1607107325/ref=sr_1_11?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=BCN1R85ZS4SV&amp;dchild=1&amp;keywords=classics&amp;qid=1619390519&amp;s=books&amp;sprefix=clasi%2Cstripbooks%2C230&amp;sr=1-11"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N">
+        <rdfs:label>books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9OHXPDqBJKZ80YXD8yucLH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9OHXPDqBJKZ80YXD8yucLH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hajime Isayama</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">192 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kodansha Comics</dc:publisher>
+        <dc:title xml:lang="en">Attack on Titan 1</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comicbooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Attack-Titan-1-Hajime-Isayama/dp/1612620248/ref=sr_1_1?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=2TKB97GCQ8YMW&amp;dchild=1&amp;keywords=attack+on+titan+1&amp;qid=1619388590&amp;sprefix=atta%2Caps%2C235&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFuj0xTixbH29FM4sf5udV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFuj0xTixbH29FM4sf5udV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yei Theodora Ozaki</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">348 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softbound</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gece Kitaplığı</dc:publisher>
+        <rdfs:label>Fairytalebooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Japanese-Fairy-Tales-Theodora-Ozaki/dp/6059867197/ref=sr_1_1?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1UHJ9H4IIA8GN&amp;dchild=1&amp;keywords=fairy+tales&amp;qid=1619392608&amp;sprefix=fairyt%2Cundefined%2C221&amp;sr=8-1"/>
+        <rdfs:title xml:lang="tr">Japanese Fairy Tales</rdfs:title>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHWxFOFBF9cM3fUsB8knjp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHWxFOFBF9cM3fUsB8knjp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orhan Veli</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">247 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softbound</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yapı Kredi Yayınları</dc:publisher>
+        <dc:title xml:lang="tr">Bütün Şiirleri</dc:title>
+        <rdfs:label>Poetrybooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/B%C3%BCt%C3%BCn-%C5%9Eiirleri-Orhan-Veli-Kan%C4%B1k/dp/9750805283/ref=sr_1_1?__mk_tr_TR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dchild=1&amp;keywords=%C5%9Fiir&amp;qid=1619391064&amp;s=books&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDt28Wa4GM75XMioYMBi94N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDt28Wa4GM75XMioYMBi94N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afet İnan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">536 pages</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softbound</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:title xml:lang="tr">Atatürk Hakkında Hatıralar ve Belgeler</dc:title>
+        <rdfs:label>Biographybooks</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com.tr/Atat%C3%BCrk-Hakk%C4%B1nda-Hat%C4%B1ralar-ve-Belgeler/dp/9944881406/ref=lp_13808204031_1_8"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Shi1IqLY54rYMlllUoC8N"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">books</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
